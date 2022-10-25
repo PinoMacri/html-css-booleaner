@@ -1,0 +1,212 @@
+body {
+    margin: 0px 250px auto
+}
+
+/*HEADER*/
+header div {
+    background-image: url('../images/pattern.png');
+    background-color: rgb(52, 143, 248);
+    background-size: 30%;
+    background-position: 1px 1px;
+    padding: 40px;
+    height: 53px;
+   
+
+}
+
+header div img {
+    width: 20%;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+header div h1 {
+    font-size: 48px;
+    margin-left: -40px;
+    margin-top: 50px;
+
+}
+
+header div p {
+
+    margin-left: -40px;
+    margin-top: -30px;
+    font-size: 20px;
+    color: gray;
+
+}
+
+header div p span {
+    color: rgb(52, 143, 248);
+}
+
+#lastHeader {
+    font-size: 13px;
+    color: gray;
+    
+   
+}
+
+
+/*MAIN*/
+main figure {
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+#firstimg {
+    width: 700px;
+}
+
+#secondimg {
+    width: 600px;
+}
+
+main section p {
+    font-size: 21px;
+    margin-right: -40px
+}
+
+main section p span {
+    background-color: yellow;
+   
+}
+
+thead {
+    color: white;
+}
+
+#uno {
+    width: 500px;;
+    text-align: left;
+    background-color: rgb(0, 138, 218);
+
+}
+#due {
+    width: 500px;
+    text-align: left;
+    background-color: rgb(0, 138, 218);
+}
+#tre {
+    width: 700px;
+    text-align: left;
+    background-color: rgb(0, 138, 218);
+}
+
+table {
+   
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(134, 211, 255);
+}
+
+tr {
+    text-align: left;
+}
+
+main ul {
+    margin-left: -20px;
+    font-size: 19px;
+}
+
+
+.alternate {
+    background-color: rgb(190, 220, 255);
+}
+
+#int1 {
+    width: 300px;
+    
+}
+#int2 {
+    width: 300px;
+}
+#int3 {
+    width: 800px;
+}
+
+
+main div p {
+    font-size: 21px;
+}
+
+main div p span {
+    background-color: yellow;
+    font-size: 21px;
+}
+
+/*ASIDE*/
+h3 {
+    color: gray;
+}
+
+    aside #as1 {
+        background-image: url('../images/monitor.jpg');;
+        width: 300px;
+        height: 205px;
+    }
+    
+    aside #as1 h3 {
+        color: white;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+
+    aside #as2 {
+        background-image: url('../images/graph.jpg');
+        width: 300px;
+        height: 205px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    aside #as2 h3 {
+        color: white;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    
+    @media screen  and (max-width:1850px ) { body {
+        margin: 0px 50px auto ;
+    } 
+    }
+
+    @media screen  and (max-width:1850px ) { header {
+        width: 100% ;
+    } 
+    }
+
+    @media screen  and (max-width:1850px ) { #firstimg {
+    
+     height: 310px;
+        width: 400px;
+    } 
+    }
+
+    @media screen  and (max-width:1850px ) { #secondimg {
+        width: 400px;
+    } 
+    }
+
+    @media screen  and (max-width:1850px ) { header div h1 {
+        margin-top: 80px;
+        font-size: 40px;
+    } 
+    }
+
+  
+
+    @media screen and (max-width:1850px) { header div h1 {
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+        
+    }
+   
+ 
+   
+        
+
+  
