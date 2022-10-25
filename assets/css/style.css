@@ -167,6 +167,9 @@ h3 {
         padding-left: 10px;
     }
     
+
+    /*RESPONSIVE RICHIESTA PROF ENRICO*/
+    
     @media screen  and (max-width:1850px ) { body {
         margin: 0px 50px auto ;
     } 
